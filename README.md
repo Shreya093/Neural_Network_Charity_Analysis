@@ -55,9 +55,9 @@ A foundation, Alphabet Soup, wants to predict where to make investments. The goa
 
     We took the below steps to try and increase the performance of the model :
     
-    A) We removed the noisy or unwanted features from the input dataframe by dropping the 'STATUS' and 'SPECIAL_CONSIDERATIONS' columns.
-    B) We increased the number of neurons on one of the hidden layers, then we used a model with three hidden layers.
-    C) We also tried a different activation function (tanh) but none of these steps helped improve the model's performance.
+    1.  We removed the noisy or unwanted features from the input dataframe by dropping the 'STATUS' and 'SPECIAL_CONSIDERATIONS' columns.
+    2. We increased the number of neurons on one of the hidden layers, then we used a model with three hidden layers.
+    3. We also tried a different activation function (tanh) but none of these steps helped improve the model's performance.
     
     ## Summary
     
